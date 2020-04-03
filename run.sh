@@ -5,7 +5,7 @@ docker ps -a
 
 docker stop demo-80
 docker rm -f demo-80
-docker run -d --name demo-80  -p 80:80 zcc/demo:1.0
+docker run -d --name demo-80  -p 80:80 zcc/demo:1.0-SNAPSHOT
 
 
 docker ps -a | grep demo-80

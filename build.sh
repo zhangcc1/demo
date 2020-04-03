@@ -5,7 +5,7 @@ mvn clean
 
 mvn package -DskipTests
 
-docker rmi -f zcc/demo:1.0
+docker rmi -f zcc/demo:1.0-SNAPSHOT
 
 mvn dockerfile:build
 
